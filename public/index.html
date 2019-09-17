@@ -4,6 +4,16 @@
         <link rel="stylesheet" type="text/css" href="all.css">
 
         <script>
+            function redirect(pagePath) {
+                if (pagePath === "signout") {
+                    firebase.auth().signOut();
+                    window.location.replace("https://verycoolmathgames.github.io");
+                } else {
+                    var urlParams = new URLSearchParams(window.location.search);
+                    var mode = urlParams.get('mode').toString();
+                    window.location = pagePath + "?mode=" + mode;
+                };
+            };
         </script>
     </head>
 
@@ -16,13 +26,13 @@
         
                 <!--Beginning of Dropdown-->
                 <div class="dropdown">
-                    <a class="dropbtn navelement" href="'index.html'">Home</a>
+                    <a class="dropbtn navelement" onclick="redirect('home.html')">Home</a>
                 </div>
                 <!--End of Dropdown-->&nbsp;&nbsp;&nbsp;
                
                 <!--Beginning of Dropdown-->
                 <div class="dropdown">
-                    <a class="dropbtn navelement" href="'1.html'">Step 1</a>
+                    <a class="dropbtn navelement" href="'2.html'">Step 1</a>
                 </div>
                 <!--End of Dropdown-->&nbsp;&nbsp;&nbsp;
         
