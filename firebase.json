@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "ironmanone",
+    "site": "ironmanmovie",
     "public": "public",
     "ignore": [
       "firebase.json",
