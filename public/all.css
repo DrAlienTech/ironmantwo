@@ -6,7 +6,9 @@ body {
   background-color: brown;
 }
 
-p
+p {
+  
+}
 
 nav{
   display: flex;
