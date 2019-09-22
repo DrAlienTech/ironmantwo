@@ -1,13 +1,7 @@
 nav{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-}
-
-h1 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
+  justi
 .dropbtn {
   font-size: 16px;
   float: left;
