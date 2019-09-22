@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "ironmantone",
+    "site": "ironmanone",
     "public": "public",
     "ignore": [
       "firebase.json",
