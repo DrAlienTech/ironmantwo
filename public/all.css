@@ -2,11 +2,6 @@ body {
   background-color: brown;
 }
 
-
-html {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 nav{
   display: flex;
   flex-direction: row;
